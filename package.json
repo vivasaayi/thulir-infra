@@ -19,9 +19,10 @@
     "node": ">=10.12"
   },
   "dependencies": {
-    "@cdktf/provider-aws": "^1.0.123",
-    "cdktf": "^0.4.1",
-    "constructs": "^3.3.102"
+    "@aws-sdk/client-ec2": "^3.36.0",
+    "@cdktf/provider-aws": "^2.0.0",
+    "cdktf": "^0.6.0",
+    "constructs": "^10.0.0"
   },
   "devDependencies": {
     "@types/node": "^16.4.2",
